@@ -1,0 +1,7 @@
+#Fri Oct 04 01:30:52 YEKT 2019
+base.0=/home/kravtsov/AndroidStudioProjects/Quiz/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/kravtsov/AndroidStudioProjects/Quiz/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
