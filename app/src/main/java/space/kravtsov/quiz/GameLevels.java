@@ -39,7 +39,7 @@ public class GameLevels extends AppCompatActivity {
     public void onBackPressed() {
         try{
             Intent intent = new Intent(GameLevels.this, MainActivity.class);
-            startActivity(intent);
+            startActivity(intent);finish();
         } catch(Exception e) {
 
         }
