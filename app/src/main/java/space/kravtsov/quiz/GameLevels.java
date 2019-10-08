@@ -6,8 +6,11 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.logging.Level;
 
 public class GameLevels extends AppCompatActivity {
 
@@ -26,6 +29,21 @@ public class GameLevels extends AppCompatActivity {
 
                 try{
                     Intent intent = new Intent(GameLevels.this, MainActivity.class);
+                    startActivity(intent);
+                } catch(Exception e) {
+
+                }
+            }
+        });
+
+        TextView textView1 = (TextView)findViewById(R.id.textView1);
+        button_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Команда для кнопки
+
+                try{
+                    Intent intent = new Intent(GameLevels.this, Level1.class);
                     startActivity(intent);
                 } catch(Exception e) {
 
