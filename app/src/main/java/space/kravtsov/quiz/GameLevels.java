@@ -37,7 +37,7 @@ public class GameLevels extends AppCompatActivity {
         });
 
         TextView textView1 = (TextView)findViewById(R.id.textView1);
-        button_back.setOnClickListener(new View.OnClickListener() {
+        textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Команда для кнопки
